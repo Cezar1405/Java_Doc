@@ -4,10 +4,9 @@
  */
 public class WordGames {
     /**
-     * Agregamos Hello antes de la palabra dada.
-     *
-     * @param word es la palabra para concatenar despues de Hello.
-     * @return el String de Hello mas la palabra dada(word).
+     * Metodo que toma una palabra y la concatena con Hello
+     * @param word es el parametro que el metodo toma
+     * @return nos regresara un String concatenando Hello con el parametro word
      */
     public String addHelloWord(String word){
         return "Hello "+word;
@@ -15,8 +14,8 @@ public class WordGames {
     /**
      * Concatenamos nombre y apellido
      *
-     * @param nome es el nombre, cognome es el apellido que se concatenaran.
-     * @return el String con la concatenacion de nombre y apellido.
+     * @param nome es el parametro que se concatenara con el parametro cognome.
+     * @return nos regresara el String con la concatenacion de nombre y apellido.
      */
     public String getFullName(String nome, String cognome){
         return nome+" "+cognome;
